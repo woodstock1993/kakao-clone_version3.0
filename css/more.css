@@ -28,6 +28,7 @@
   display: flex;
   align-items: center;
   margin-bottom: 20px;
+  text-align: center;
 }
 .more__btn .more__btn-title {
   font-size: 14px;
@@ -38,7 +39,7 @@
   padding-top: 20px;
 }
 
-.more .more__title {
+.more .more__suggestion .more .more__title {
   margin-bottom: 20px;
   opacity: 0.8;
 }
@@ -50,6 +51,7 @@
 .suggestion__title {
   font-size: 12px;
   margin-top: 13px;
+  justify-content: space-between;
 }
 
 .more .suggestion__icon {
@@ -61,6 +63,6 @@
   justify-content: center;
 }
 
-.suggestion__icon i{
-    font-size:28px;
+.suggestion__icon i {
+  font-size: 28px;
 }
