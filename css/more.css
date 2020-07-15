@@ -1,0 +1,66 @@
+.more .more__friend {
+  margin-left: 0px;
+  margin: 10px 0px;
+}
+
+.more .more-friend__column {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.more .far {
+  font-size: 20px;
+}
+
+.more .more__btn,
+.more__suggestion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+.more .more__btn-list,
+.more .more__suggestions-list {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.more__btn .more__btn-title {
+  font-size: 14px;
+  margin-top: 15px;
+}
+.more .more__suggestions {
+  border-top: 1px solid #f7f7f7;
+  padding-top: 20px;
+}
+
+.more .more__title {
+  margin-bottom: 20px;
+  opacity: 0.8;
+}
+
+.more .more__suggestion {
+  display: flex;
+}
+
+.suggestion__title {
+  font-size: 12px;
+  margin-top: 13px;
+}
+
+.more .suggestion__icon {
+  margin-bottom: 5px;
+  background-color: #fce006;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.suggestion__icon i{
+    font-size:28px;
+}
