@@ -29,3 +29,26 @@
     background-image: url("../image/among_us2.jpg");
   }
 }
+
+@keyframes ball {
+  0% {
+    top: 0px;
+  }
+  95% {
+    width: 100px;
+  }
+  to {
+    top: 300px;
+    width: 115px;
+    height: 90px;
+  }
+}
+
+.bigScreen__text {
+  position: relative;
+  left: 0px;
+  top: 0;
+  width: 100px;
+  height: 100px;
+  animation: ball 1s ease-in Infinite Alternate;
+}
